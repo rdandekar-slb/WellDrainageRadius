@@ -39,7 +39,8 @@ myfield:fm.Field = fm.Field("Brillig")
 # myfield.name="Brillig"
 
 myfield.map=sh.Polygon((sh.Point(0,0),sh.Point(0,50),sh.Point(50,50),sh.Point(50,0),sh.Point(0,0)))
-myfield.get_map_from_cps3(r"C:\Users\rdandekar\Desktop\Brillig_8080")
+myfield.get_map_from_cps3(r"C:\Users\rdandekar\Desktop\DLs\Data\Brillig_8080")
+myfield.get_faults_from_cps3([r"C:\Users\rdandekar\Desktop\DLs\Data\Fault10.cps",r"C:\Users\rdandekar\Desktop\DLs\Data\Fault20.cps"])
 map_bounds=get_map_bounds(myfield.map)
 print(map_bounds)
 fig,ax=plt.subplots()
