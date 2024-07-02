@@ -18,23 +18,6 @@ def get_map_bounds(input_poly:sh.Polygon):
 
 
 
-# r=5+5*np.random.rand(2)
-
-# p=sh.Point(r)
-
-# p_buffer=sh.buffer(p,5)
-# p_bounds=np.concatenate((np.floor(np.array(p_buffer.bounds[:2])),np.ceil(np.array(p_buffer.bounds[2:]))))
-
-# print(p_bounds)
-
-# print(np.floor(np.array(p_buffer.bounds[:2])), np.ceil(np.array(p_buffer.bounds[2:])))
-# fig = plt.figure(1, figsize=SIZE, dpi=90)
-# ax = fig.add_subplot(121)shplt.plot_points(p,ax=ax,color=BLUE)
-# shplt.plot_polygon(p_buffer,ax=ax,add_points=False)
-# # set_limits(ax,-5,5,-5,5)
-# set_limits(ax,int(p_bounds[0]),int(p_bounds[2]),int(p_bounds[1]),int(p_bounds[3]))
-# plt.show()
-
 myfield:fm.Field = fm.Field("Brillig")
 # myfield.name="Brillig"
 
