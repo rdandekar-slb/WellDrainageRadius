@@ -25,7 +25,7 @@ def add_origin(ax, geom, origin):
 
 def set_limits(ax, x0, xN, y0, yN):
     ax.set_xlim(x0, xN)
-    ax.set_xticks(range(x0, xN+1,int((xN+1-x0)/10)))
+    ax.set_xticks(list(range(x0, xN+1,int((xN+1-x0)/10))))
     ax.set_ylim(y0, yN)
-    ax.set_yticks(range(y0, yN+1,int((yN+1-y0)/10)))
+    ax.set_yticks(list(range(y0, yN+1,int((yN+1-y0)/10))))
     ax.set_aspect("equal")

@@ -17,7 +17,7 @@ plot_points(line.boundary, ax=ax, color=BLACK)
 
 ax.set_title('a) simple')
 
-set_limits(ax, -1, 4, -1, 3)
+# set_limits(ax, -1, 4, -1, 3)
 
 # 2: complex line
 ax = fig.add_subplot(122)
@@ -29,6 +29,6 @@ plot_points(line2.boundary, ax=ax, color=BLACK)
 
 ax.set_title('b) complex')
 
-set_limits(ax, -2, 3, -1, 3)
+# set_limits(ax, -10, 10, -10, 10)
 
 plt.show()
